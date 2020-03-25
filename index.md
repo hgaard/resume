@@ -6,8 +6,11 @@ title: Jakob Højgaard's CV
 Technologist, Director, Software engineer
 
 <div id="webaddress">
-<a href="jakob@hgaard.dk">jakob@hgaard.dk</a>
-| <a href="https://blog.hgaard.dk">blog</a>
+    <a href="mailto:jakob@hgaard.dk">email</a>
+|   <a href="https://blog.hgaard.dk">blog</a>
+|   <a href="https://linkedin.com/in/jakobhojgaard">linkedin</a>
+|   <a href="https://github.com/hgaard">github</a>
+|   <a href="/jakob-cv.pdf">pdf</a>
 </div>
 
 ## About
