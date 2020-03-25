@@ -153,7 +153,7 @@ __University of Southern Denmark, Odense - BSc. Computer Engineer__
 - Docker
 - Kubernetes
 
-### Methodologies}
+### Methodologies
 
 - Agile
 - Scrum
