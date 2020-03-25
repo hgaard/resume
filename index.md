@@ -14,13 +14,13 @@ Technologist, Director, Software engineer
 
 I am a Danish Technologist, manager, full stack software engineer and architect with more than 17 years of experience in the industry. I manage high performing teams, I do web, security cross-platform mobile development and everything in-between.
 I am known to be a person who challenges the well-known with a positive mind, both when it comes to building solutions, improving the development process and choosing platform, language or technology. I am inspired by functional programming languages, which is reflected in my approach to programming and I strive to become a polyglot developer.
-Privately I am a father of two boys and a girl and married to a sociologist doing UX Research. We live in Brisbane, but are often found hanging out on the local beaches trying to surf and play with our kids.
+Privately I am a father of two boys and a girl and married to a sociologist doing UX Research. We live in Brisbane but are often found hanging out on the local beaches trying to surf and play with our kids.
 
 ## Experience
 
 ### KMD Australia
 
-`Jan 2018 - present`
+`2018 - present`
 __Managing Director__
 
 As MD I was responsible for establishing the entity in Australia, setting up a team of 8 highly talented developers and architects and running the day to day business.
@@ -31,7 +31,7 @@ As technology director in the R&D division was responsible for delivering the ne
 
 ### Readify
 
-`Feb 2016 - Jan 2018`
+`2016 - 2018`
 __Senior Consultant__
 
 As senior consultant I worked on a variety of projects with an equal variety of technology. From solving hard isolated technical problems to managing a long running project with up to 10 members including subcontractors. Our customers spanned enterprise customers to smaller independent companies to state and local government.
@@ -42,7 +42,7 @@ I have been responsible for architecting and developing mobile apps for our cust
 
 __Login__
 
-I have been responsible for developing login and login federation solutions, using technologies like OpenId Connect, OAuth2, SAML and different flavours of 2 factor authentication.
+I have been responsible for developing login and login federation solutions, using technologies like OpenID Connect, OAuth2, SAML and different flavours of 2 factor authentication.
 
 __Cloud deployment__
 
@@ -50,23 +50,23 @@ I have been responsible for developing the backend systems to support web applic
 
 ### Schultz A/S
 
-`Mar 2013 - Jan 2016`
+`2013 - 2016`
 __Software Engineer & Architect__
 
 My responsibilities have been very diverse. Spanning from large public self-service sites to mobile apps and most recently a case management system built on top of Microsoft CRM.
-Since the summer of 2014 I have also been team manager for 5 developers and since the beginning of 2015 I have also acted as PO and architect for an internal project aimed at improving the common components and infrastructure we build our products on.
+Since the summer of 2014 I have also been team manager for 5 developers and since the beginning of 2015 I have also acted as PO and architect for an internal project aimed at improving the common components and infrastructure, we build our products on.
 
 __Fasit__ 
 
-A case management solution for public job centers in the municipalities in Denmark. The application integrates with a large number of public registers and infrastructure elements. It is built on top of Microsoft CRM and has a large integration engine written in C# along with it. After 1,5 years in production, I joined the development team as a software architect, responsible for eradicating a large amount of technical debt. My initial focus was to improve testability and maintainability and to identify the most business critical design flaws.
+A case management solution for public job centres in the municipalities in Denmark. The application integrates with a large number of public registers and infrastructure elements. It is built on top of Microsoft CRM and has a large integration engine written in C# along with it. After 1,5 years in production, I joined the development team as a software architect, responsible for eradicating a large amount of technical debt. My initial focus was to improve testability and maintainability and to identify the most business-critical design flaws.
 
 __Byg og Miljø__
 
-A self-service system for handing in building applications, owned by the municipalities i Denmark. The application is written i C# using ASP.NET MVC, Web API and Entity Framework with SQL Server as persistence layer. I contributed in all areas from rest interfaces, Soap interfaces and user interface to authentication with SAML.
+A self-service system for handing in building applications, owned by the municipalities in Denmark. The application is written in C# using ASP.NET MVC, Web API and Entity Framework with SQL Server as persistence layer. I contributed in all areas from rest interfaces, Soap interfaces and user interface to authentication with SAML.
 
 __OIOSAML__ 
 
-A SAML library for connecting to the danish login federation Nemlog-in. The Library has both a .net implementation as well as a Java one and is maintained on the Danish Open Source site "Softwarebørsen". I have contributed feature updates, bug fixes as well as done code reviews.
+A SAML library for connecting to the Danish login federation Nemlog-in. The Library has both a .net implementation as well as a Java one and is maintained on the Danish Open Source site "Softwarebørsen". I have contributed feature updates, bug fixes as well as done code reviews.
 
 __Ungeguiden__ 
 
@@ -74,36 +74,38 @@ An app with the purpose of guiding the Danish youth on which education to apply 
 
 __myUCPH__ 
 
-The official app for The University of Copenhagen. The app is built to customize the content based on the users association to the university. The app is written in C# with Xamarin and MvvmCross and is available for iOS and Android. I did the initial architectural design of the app and developed key parts.
+The official app for The University of Copenhagen. The app is built to customize the content based on the user's association to the university. The app is written in C# with Xamarin and MvvmCross and is available for iOS and Android. I did the initial architectural design of the app and developed key parts.
 
 ### NNIT A/S
 
-`Nov 2011 - Feb 2013`
+`2011 - 2013`
 __Advanced Developer__
 
-During my entire employment at NNIT i worked on the same product, a federated login solution for the government in Denmark.
+During my entire employment at NNIT I worked on the same product, a federated login solution for the government in Denmark.
+
 **Nemlog-in** - provides single sign-on for all Danish citizens when interacting with any public institutions. The solution is build around Microsoft ADFS in C# with a lot of supporting services for administration and federation subscription. My main responsibilities were - Design and implementation of components, security assessments of other parts of the code base and build and deployment of the solution.
 
 ### Oticon A/S
 
-`July 2011 - Oct 2011`
+`2011 - 2011`
 __Lead Developer__
 
 __Genie__ - a large Windows application for fitting hearing instruments. The application is written in C# and is very processor heavy. As lead developer I was responsible for design and development and review of core communication, simulation and transformation components within the fitting application.
 
-`Aug 2005 - June 2011`
+`2005 - 2011`
 
 __Software Developer__ 
 
-__Genie__ - my areas of expertise were mainly around communication between hearing instrument and computer, data modeling, data persisting, optimization of performance and parallelization of program flow.
-__Development tools__ - during the development of the fitting application as well as for development of the hearing instruments them selves, I developed and implemented various development tools. These tool ranged from small commandline tools for test automation to implementation and migration to TFS.
+__Genie__ - my areas of expertise were mainly around communication between hearing instrument and computer, data modelling, data persisting, optimization of performance and parallelization of program flow.
+
+__Development tools__ - during the development of the fitting application as well as for development of the hearing instruments themselves, I developed and implemented various development tools. These tools ranged from small commandline tools for test automation to implementation and migration to TFS.
 
 ### GN Otometrics A/S
 
-`Oct 2003 - July 2005`
+`2003 - 2005`
 __Software Developer__
 
-__Auditbase__ - an office Management System for supporting hearing care professionals in hearing clinics in the UK and Scandinavia. The application also integrate with other hospital systems through the HL7 protocol. I worked as a developer on the application written in Centura/Gupta with SQLBase as backend. I was also responsible for the HL7 integration.
+__Auditbase__ - an office Management System for supporting hearing care professionals in hearing clinics in the UK and Scandinavia. The application also integrates with other hospital systems through the HL7 protocol. I worked as a developer on the application written in Centura/Gupta with SQLBase as backend. I was also responsible for the HL7 integration.
 
 ## Education
 
@@ -119,60 +121,39 @@ __University of Southern Denmark, Odense - BSc. Computer Engineer__
 
 ### Platforms, frameworks and technologies
 
-- .NET
-- WCF
-- WPF
-- ASP.NET MVC
-- Entity Framework
-- NHibernate
-- Xamarin
-- Android
-- iOS
-- Ionic / Cordova
-- SAML
-- WIF
-- OAuth 2
+|  .NET             | WCF               | WPF           |
+| ASP.NET MVC       | Entity Framework  | NHibernate    |
+| Xamarin           | Android           | iOS           |
+| Ionic / Cordova   | SAML              | WIF           |
+| OAuth 2           | OpenID Connect
+
 
 ### Programming languages
 
-- C#
-- Java
-- JavaScript
-- TypeScript
-- C++
-- F#
-- SQL
-- Ruby
-- MatLab
-- Elixir
+| C#            | Java      | JavaScript
+| TypeScript    | C++       | F#
+| SQL           | Ruby      | MatLab
+| Elixir
 
 ### Cloud and orchestration
 
-- Azure
-- DigitalOcean
-- Docker
-- Kubernetes
+| Azure     | DigitalOcean  |   AWS
+| Docker    | Kubernetes    |
 
 ### Methodologies
 
-- Agile
-- Scrum
-- Kanban
+| Agile | Scrum | Kanban
 
 ### Development tools
 
-- Git
-- Visual Studio
-- TFS
-- Jenkins
-- Octopus Deploy
-- Eclipse
+| Git       | Visual Studio     | TFS
+| Jenkins   | Octopus Deploy    | Eclipse
 
 ## Volunteer
 
 ### Chairman
 
-`Mar 2011 - 2015`
+`2011 - 2015`
 
 __Chairman of the housing coop where I live__
 

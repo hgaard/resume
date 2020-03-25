@@ -45,6 +45,14 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+	position: relative;
+	left: 33%;
+	margin-bottom: 0.7em;
+	margin-right: 0;
+	width: 55%;
+}
+td {
+	width: 33%
 }
 
 /* end of reset */
@@ -79,7 +87,7 @@ code {
 
 p code {
 	position: absolute;
-	left: -11%;
+	left: -12%;
 }
 
 
