@@ -15,7 +15,7 @@ Technologist, Director, Software engineer
 
 ## About
 
-I am a Danish Technologist, manager, full stack software engineer and architect with more than 17 years of experience in the industry. I manage high performing teams, I do web, security cross-platform mobile development and everything in-between.
+I am a Danish technologist, director, full stack software engineer and architect with more than 17 years of experience in the industry. I manage high performing teams, I do web, security cross-platform mobile development and everything in-between.
 I am known to be a person who challenges the well-known with a positive mind, both when it comes to building solutions, improving the development process and choosing platform, language or technology. I am inspired by functional programming languages, which is reflected in my approach to programming and I strive to become a polyglot developer.
 Privately I am a father of two boys and a girl and married to a sociologist doing UX Research. We live in Brisbane but are often found hanging out on the local beaches trying to surf and play with our kids.
 
