@@ -15,15 +15,26 @@ Technologist, Director, Software engineer
 
 ## About
 
-I am a Danish technologist, director, full stack software engineer and architect with more than 17 years of experience in the industry. I manage high performing teams, I do web, security cross-platform mobile development and everything in-between.
-I am known to be a person who challenges the well-known with a positive mind, both when it comes to building solutions, improving the development process and choosing platform, language or technology. I am inspired by functional programming languages, which is reflected in my approach to programming and I strive to become a polyglot developer.
-Privately I am a father of two boys and a girl and married to a sociologist doing UX Research. We live in Brisbane but are often found hanging out on the local beaches trying to surf and play with our kids.
+As a seasoned technologist and senior technology leader, Jakob has held pivotal roles such as Chief Information Officer (CIO) and Chief Technology Officer (CTO), bringing over two decades of experience across diverse industries, including healthcare, government, security, and financial services. With an international career spanning Europe and Oceania, with a global perspective on technology management and innovation. In Jakob’s current role as CIO, he oversees the development and management of a Customer Relationship Management (CRM) and loan origination platform for the largest group of finance brokers in Australia and New Zealand. This platform supports over 6,000 brokers and advisers, partnering with more than 60 banks and lenders. Throughout Jakob’s career, he has operated at various levels of technology management, from hands-on development to executive leadership. Jakob’s passionate about building products that delight customers and is committed to developing high-performing technology organisations that drive business success.
 
 ## Experience
 
+
+### LMG
+
+`2020 - present`
+__CIO__
+
+Improve platform NPS to +50, integrate cloud engineering, systems engineering and secutiry operations. Separation from RW managed IT. Obtained ISO 27001 & SOC2Type2 cert.
+Build a team of technologist that are recognised in the industry.
+
+__CTO__
+
+Modernising infrastructure of the platform to scale to x5, acquisition of PCF. Expand the team with the PCF employees. Responsibility of all brokers facing technology functions from incl, engineering, Cloud engineering & ops, product, QA, Support & training. Successful transition of 5000+ customers in less than 10 months. Scaling the team to 120+ people.
+
 ### KMD Australia
 
-`2018 - present`
+`2018 - 2020`
 __Managing Director__
 
 As MD I was responsible for establishing the entity in Australia, setting up a team of 8 highly talented developers and architects and running the day to day business.
