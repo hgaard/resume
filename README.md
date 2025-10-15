@@ -1,44 +1,90 @@
-# markdown-cv
+# Jakob Højgaard's CV
 
 A curriculum vitae maintained in plain text and rendered to HTML and PDF using CSS.
 
-For more details, see the [project page](http://elipapa.github.io/markdown-cv), or the blog post on [why I switched to markdown for my CV](http://elipapa.github.io/blog/why-i-switched-to-markdown-for-my-cv.html).
+Built with Jekyll and GitHub Pages. Based on the [markdown-cv](http://elipapa.github.io/markdown-cv) template.
 
 ***
 
-## Customization
+## Development Setup
 
-Simply [fork the markdown-cv repo](https://github.com/elipapa/markdown-cv)
+This repository uses Jekyll with GitHub Pages gem to maintain consistency between local development and GitHub Pages deployment.
 
-![](https://help.github.com/assets/images/help/repository/fork_button.jpg)
+### Prerequisites
 
-and edit the `index.md` file [directly in Github](https://help.github.com/articles/editing-files-in-your-repository/)
+- Ruby 3.0 or higher (Homebrew Ruby recommended on macOS)
+- Bundler
 
-![](https://help.github.com/assets/images/help/repository/edit-file-edit-button.png)
+### Initial Setup
 
-adding your skills, jobs and education.
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd resume
+   ```
 
-![](https://help.github.com/assets/images/help/repository/edit-readme-light.png)
+2. Install dependencies:
+   ```bash
+   # If behind a corporate proxy (e.g., Netskope), export the certificate:
+   security find-certificate -a -c "certadmin" -p > /tmp/netskope.pem
+   cat /opt/homebrew/etc/openssl@3/cert.pem >> /tmp/netskope.pem
+   export SSL_CERT_FILE=/tmp/netskope.pem
 
-## Distribution
+   # Install gems
+   /opt/homebrew/opt/ruby/bin/bundle install
+   ```
 
-To transform your plain text CV into a beautiful and shareable HTML page, you have two options:
+### Local Development
 
-### I. Use Github Pages to publish it online
+1. Start the Jekyll development server:
+   ```bash
+   # If behind corporate proxy, set certificate:
+   export SSL_CERT_FILE=/tmp/netskope.pem
 
-1. Delete the existing `gh-pages` branch from your fork. It will only contain this webpage. You can either use git or [the Github web interface](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/#deleting-a-branch).
-2. Create a new branch called `gh-pages`.
-3. Head to *yourusername*.github.io/markdown-cv to see your CV live.
+   # Start server
+   /opt/homebrew/opt/ruby/bin/bundle exec jekyll serve
+   ```
 
-Any change you want to make to your CV from then on would have to be done on the `gh-pages` branch and will be immediately rendered by Github Pages.
+2. Open your browser to [http://localhost:4000](http://localhost:4000)
 
-### II. Build it locally and print a PDF
+3. Edit [index.md](index.md) to update your CV content. The site will automatically rebuild when you save changes.
 
-1. To [install jekyll](https://jekyllrb.com/docs/installation/), run `gem install bundler jekyll` from the command line.
-3. [Clone](https://help.github.com/en/articles/cloning-a-repository) your fork of markdown-cv to your local machine.
-3. Type `jekyll serve` to render your CV at http://localhost:4000.
-4. You can edit the `index.md` file and see the changes live in your browser.
-5. To print a PDF, press <kbd>⌘</kbd> + <kbd>p</kbd>. Print and web CSS media queries should take care of the styling.
+### Updating Dependencies
+
+To update to the latest GitHub Pages compatible versions:
+
+```bash
+# Update gems
+export SSL_CERT_FILE=/tmp/netskope.pem  # If needed
+/opt/homebrew/opt/ruby/bin/bundle update
+
+# Test the site
+/opt/homebrew/opt/ruby/bin/bundle exec jekyll serve
+```
+
+### Deployment
+
+This site is deployed via GitHub Pages. To publish changes:
+
+1. Commit your changes to the `gh-pages` branch:
+   ```bash
+   git add .
+   git commit -m "Update CV"
+   git push origin gh-pages
+   ```
+
+2. GitHub Pages will automatically build and deploy your site within a few minutes.
+
+3. Visit your live site at the configured GitHub Pages URL.
+
+### Generating a PDF
+
+1. Start the local server (see Local Development above)
+2. Open [http://localhost:4000](http://localhost:4000) in your browser
+3. Press <kbd>⌘</kbd> + <kbd>P</kbd> (macOS) or <kbd>Ctrl</kbd> + <kbd>P</kbd> (Windows/Linux)
+4. Save as PDF
+
+The print CSS will automatically format the page appropriately for PDF export.
 
 ## Styling
 
