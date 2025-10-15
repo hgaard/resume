@@ -91,9 +91,13 @@ If you want to generate the PDF locally without waiting for GitHub Actions:
 1. Start the local server (see Local Development above)
 2. Open [http://localhost:4000](http://localhost:4000) in your browser
 3. Press <kbd>⌘</kbd> + <kbd>P</kbd> (macOS) or <kbd>Ctrl</kbd> + <kbd>P</kbd> (Windows/Linux)
-4. Save as PDF - name it `jakob-cv.pdf` to replace the existing one
+4. In the print dialog:
+   - **Uncheck "Headers and footers"** to remove date, title, URL, and page numbers
+   - Set margins as desired (0.5cm recommended)
+   - Choose A4 or Letter paper size
+5. Save as PDF - name it `jakob-cv.pdf` to replace the existing one
 
-The print CSS will automatically format the page appropriately for PDF export.
+The print CSS includes `@page` rules to help suppress browser headers/footers automatically.
 
 ## Styling
 

@@ -33,12 +33,15 @@ jobs:
       - name: Generate PDF from HTML
         run: |
           chromium-browser \
-            --headless \
+            --headless=new \
             --disable-gpu \
             --no-sandbox \
+            --disable-dev-shm-usage \
+            --run-all-compositor-stages-before-draw \
             --print-to-pdf=jakob-cv.pdf \
+            --no-pdf-header-footer \
             --print-to-pdf-no-header \
-            _site/index.html
+            "file://$(pwd)/_site/index.html"
 
       - name: Commit and push PDF if changed
         run: |
