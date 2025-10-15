@@ -22,26 +22,13 @@ jobs:
           ruby-version: '3.2'
           bundler-cache: true
 
-      - name: Build Jekyll site
-        run: bundle exec jekyll build
-
       - name: Install Chromium for PDF generation
         run: |
           sudo apt-get update
           sudo apt-get install -y chromium-browser
 
-      - name: Generate PDF from HTML
-        run: |
-          chromium-browser \
-            --headless=new \
-            --disable-gpu \
-            --no-sandbox \
-            --disable-dev-shm-usage \
-            --run-all-compositor-stages-before-draw \
-            --print-to-pdf=jakob-cv.pdf \
-            --no-pdf-header-footer \
-            --print-to-pdf-no-header \
-            "file://$(pwd)/_site/index.html"
+      - name: Generate PDF using script
+        run: ./scripts/generate-pdf.sh jakob-cv.pdf
 
       - name: Commit and push PDF if changed
         run: |

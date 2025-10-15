@@ -62,6 +62,26 @@ export SSL_CERT_FILE=/tmp/netskope.pem  # If needed
 /opt/homebrew/opt/ruby/bin/bundle exec jekyll serve
 ```
 
+### Generating PDF Locally
+
+Use the provided script to generate a PDF (same script used by GitHub Actions):
+
+```bash
+# Generate PDF (requires Google Chrome or Chromium)
+export SSL_CERT_FILE=/tmp/netskope.pem  # If needed
+./scripts/generate-pdf.sh
+
+# Or specify output filename
+./scripts/generate-pdf.sh my-custom-cv.pdf
+```
+
+The script will:
+
+- Build the Jekyll site
+- Auto-detect Chrome/Chromium on your system
+- Generate a clean PDF without headers/footers
+- Report success with file size
+
 ### Deployment
 
 This site is deployed via GitHub Pages. To publish changes:
