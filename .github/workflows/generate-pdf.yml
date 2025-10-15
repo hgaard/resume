@@ -1,0 +1,55 @@
+name: Generate CV PDF
+
+on:
+  push:
+    branches:
+      - gh-pages
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  generate-pdf:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: true
+
+      - name: Build Jekyll site
+        run: bundle exec jekyll build
+
+      - name: Install Chromium for PDF generation
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
+
+      - name: Generate PDF from HTML
+        run: |
+          chromium-browser \
+            --headless \
+            --disable-gpu \
+            --no-sandbox \
+            --print-to-pdf=jakob-cv.pdf \
+            --print-to-pdf-no-header \
+            _site/index.html
+
+      - name: Commit and push PDF if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          # Check if PDF has changed
+          if ! git diff --quiet jakob-cv.pdf; then
+            git add jakob-cv.pdf
+            git commit -m "Auto-generate CV PDF from latest content"
+            git push
+          else
+            echo "PDF unchanged, skipping commit"
+          fi
