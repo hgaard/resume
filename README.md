@@ -82,7 +82,7 @@ This site is deployed via GitHub Pages. To publish changes:
 
 4. Visit your live site at the configured GitHub Pages URL.
 
-You can monitor the PDF generation at: `https://github.com/<username>/resume/actions`
+You can monitor the PDF generation at the [GitHub Actions page](https://github.com/hgaard/resume/actions).
 
 ### Generating a PDF Manually (Local)
 
