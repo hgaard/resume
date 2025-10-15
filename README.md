@@ -75,14 +75,23 @@ This site is deployed via GitHub Pages. To publish changes:
 
 2. GitHub Pages will automatically build and deploy your site within a few minutes.
 
-3. Visit your live site at the configured GitHub Pages URL.
+3. **Automated PDF Generation**: A GitHub Action will automatically:
+   - Build the Jekyll site
+   - Generate `jakob-cv.pdf` from the HTML using headless Chrome
+   - Commit and push the updated PDF if the content changed
 
-### Generating a PDF
+4. Visit your live site at the configured GitHub Pages URL.
+
+You can monitor the PDF generation at: `https://github.com/<username>/resume/actions`
+
+### Generating a PDF Manually (Local)
+
+If you want to generate the PDF locally without waiting for GitHub Actions:
 
 1. Start the local server (see Local Development above)
 2. Open [http://localhost:4000](http://localhost:4000) in your browser
 3. Press <kbd>⌘</kbd> + <kbd>P</kbd> (macOS) or <kbd>Ctrl</kbd> + <kbd>P</kbd> (Windows/Linux)
-4. Save as PDF
+4. Save as PDF - name it `jakob-cv.pdf` to replace the existing one
 
 The print CSS will automatically format the page appropriately for PDF export.
 
